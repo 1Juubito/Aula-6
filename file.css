@@ -1,0 +1,19 @@
+.alternada{
+    list-style: square;
+    font-size: 30px;
+    color: blue;
+    width: fit-content;
+} /*even or odd */
+
+.alternada li:nth-child(odd){
+    background-color: burlywood;
+}
+
+.alternada li:nth-child(even){
+    background-color: coral;
+
+}
+
+.alternada li:hover{
+    font-weight: bolder;
+}
